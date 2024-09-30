@@ -1,6 +1,4 @@
-// Import ThreeJS Libraray - CDN
-
-import * as THREE from './libs/three.module.js';
+import * as THREE from './libs/three.module.js'; // Import ThreeJS Libraray - CDN
 
 // console.log(THREE)
 
@@ -40,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.body.appendChild(video);
     document.body.appendChild(renderer.domElement);
+
+
 
 
 })
